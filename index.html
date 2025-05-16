@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Restaurant Analogy: Understanding Frontend vs Backend in Web Development</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --background-color: #f8fafc;
+            --text-color: #1e293b;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
+        html {
+            font-family: "Gill Sans MT", "Gill Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        h1 span {
+            background: linear-gradient(135deg, var(--primary-color), #1d4ed8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .content-wrapper {
+            padding: 2rem;
+            min-height: 100dvh;
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border: 1px solid #e2e8f0b6;
+            border-radius: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            margin: 1.25rem 0;
+            font-size: 1.1rem;
+            color: var(--text-color);
+        }
+
+        strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #e2e8f0, transparent);
+            margin: 2rem 0;
+        }
+
+        .concept-card {
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            background: white;
+            margin: 1rem 0;
+            border: 1px solid #e2e8f0;
+        }
+
+        @media (max-width: 768px) {
+            .content-wrapper {
+                margin: 0;
+                border-radius: 0;
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="content-wrapper">
+            <div class="concept-card">
+                <h1>The Restaurant Analogy: <br> Understanding <span>Frontend</span> vs <span>Backend</span> in Web
+                    Development</h1>
+                <p>
+                    Think of a website like a restaurant. Just as a restaurant has a dining area where you sit and a
+                    kitchen where food is made,
+                    a website has two main parts. The part you see and interact with (like the restaurant's dining room)
+                    is called the frontend.
+                    The part that works behind the scenes (like the kitchen) is called the backend. Let's explore how a
+                    restaurant helps us
+                    understand how websites work!
+                </p>
+            </div>
+            <hr>
+            <div class="concept-card">
+                <h2>Front-End</h2>
+                <p>
+                    Think of the <strong>Front-End</strong> as the restaurant's dining room. It's everything you can see
+                    and touch - the tables,
+                    chairs, menus, and decorations. Just like how a restaurant needs to look nice and be easy to move
+                    around in, a website needs
+                    to look good and be easy to use. This is what you see in your web browser!
+                </p>
+            </div>
+            <div class="concept-card">
+                <h2>Back-End</h2>
+                <p>
+                    The <strong>Back-End</strong> is like the restaurant's kitchen. You don't see it, but it's where all
+                    the important work happens.
+                    Just like how chefs cook your food in the kitchen, the backend processes all your requests when you
+                    use a website. It stores
+                    information and makes sure everything works properly.
+                </p>
+            </div>
+            <div class="concept-card">
+                <h2>JavaScript</h2>
+                <p>
+                    <strong>JavaScript</strong> is like your waiter or waitress. When you order food, the waiter takes
+                    your order to the kitchen
+                    and brings back your meal. Similarly, when you click a button on a website, JavaScript carries your
+                    request to the backend
+                    and brings back what you asked for. It helps make websites interactive!
+                </p>
+            </div>
+            <div class="concept-card">
+                <h2>APIs</h2>
+                <p>
+                    <strong>APIs</strong> are like food suppliers for the restaurant. Just as a restaurant gets
+                    ingredients from different suppliers
+                    (like a vegetable supplier or a meat supplier), websites use APIs to get special information from
+                    other services. For example,
+                    a weather website might use an API to get the latest weather information.
+                </p>
+            </div>
+            <div class="concept-card">
+                <h2>Database</h2>
+                <p>
+                    The <strong>Database</strong> is like the restaurant's storage room. Just as a restaurant stores
+                    ingredients and supplies
+                    they'll need later, a database stores information that the website needs. This could be things like
+                    user accounts,
+                    pictures, or any other information the website needs to remember.
+                </p>
+            </div>
+            <hr>
+            <p>
+                In summary, building a website is like running a restaurant. The front-end is what customers see and
+                use,
+                like the dining room. The back-end is the kitchen, where all the work happens out of sight. JavaScript
+                is
+                the helpful waiter, connecting the two. APIs bring in special ingredients from outside, and the database
+                is the storage room for everything needed. When these parts work together, you get a smooth and
+                enjoyable experience—just like a great meal at your favorite restaurant.
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
